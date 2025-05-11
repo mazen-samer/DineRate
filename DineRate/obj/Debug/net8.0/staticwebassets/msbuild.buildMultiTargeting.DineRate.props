@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DineRate.props" />
+</Project>
