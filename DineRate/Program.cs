@@ -3,6 +3,7 @@ using System.Text;
 using DineRate.Data;
 using DineRate.Mapper;
 using DineRate.Repositories.RestaurantRepo;
+using DineRate.Repositories.ReviewReactionRepo;
 using DineRate.Repositories.ReviewRepo;
 using DineRate.Repositories.ReviewRepo.DineRate.Repositories.ReviewRepo;
 using DineRate.Repositories.UserRepo;
@@ -34,6 +35,7 @@ namespace DineRate
             builder.Services.AddScoped<IRestaurantRepository, RestaurantRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+            builder.Services.AddScoped<IReviewReactionRepository, ReviewReactionRepository>();
             builder.Services.AddScoped<TokenService>();
 
             builder.Services.AddAutoMapper(typeof(MapperConfig));

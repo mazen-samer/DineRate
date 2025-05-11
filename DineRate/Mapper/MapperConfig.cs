@@ -33,6 +33,13 @@ namespace DineRate.Mapper
                 .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => src.CreatedAt.ToString("yyyy-MM-dd HH:mm")))
                 .ForMember(dest => dest.LikesCount, opt => opt.MapFrom(src => src.Reactions.Count(r => r.IsLike)))
                 .ForMember(dest => dest.DislikesCount, opt => opt.MapFrom(src => src.Reactions.Count(r => !r.IsLike)));
+
+            CreateMap<ReviewReaction, ReviewReactionDTO>()
+                .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.User.Username));
+
+
         }
+
+
     }
 }

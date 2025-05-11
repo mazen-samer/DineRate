@@ -175,6 +175,70 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DineRate.Controllers.ReviewReactionController",
+    "Method": "RemoveReaction",
+    "RelativePath": "api/ReviewReaction/{reviewId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DineRate.Controllers.ReviewReactionController",
+    "Method": "GetReactionCounts",
+    "RelativePath": "api/ReviewReaction/{reviewId}/count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DineRate.Controllers.ReviewReactionController",
+    "Method": "GetMyReaction",
+    "RelativePath": "api/ReviewReaction/{reviewId}/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reviewId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DineRate.Controllers.ReviewReactionController",
+    "Method": "ReactToReview",
+    "RelativePath": "api/ReviewReaction/react",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DineRate.DTO.CreateReviewReactionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DineRate.Controllers.UserController",
     "Method": "GetById",
     "RelativePath": "api/User/{id}",

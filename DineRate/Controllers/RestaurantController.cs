@@ -2,6 +2,7 @@
 using DineRate.DTO;
 using DineRate.Models;
 using DineRate.Repositories.RestaurantRepo;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DineRate.Controllers
@@ -37,6 +38,7 @@ namespace DineRate.Controllers
             return Ok(restDTO);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult> CreateRestaurant(CreateRestaurantDTO rDTO)
         {
@@ -46,6 +48,7 @@ namespace DineRate.Controllers
             return CreatedAtAction(nameof(GetRestaurantById), new { id = rest.Id }, readDto);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateRestaurant(int id, UpdateRestaurantDTO dto)
         {
@@ -61,6 +64,7 @@ namespace DineRate.Controllers
         }
 
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteRestaurant(int id)
         {
