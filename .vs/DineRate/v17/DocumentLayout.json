@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "E:\\ITI\\WebAPI\\DineRate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\mapper\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\mapper\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\models\\reviewreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\models\\reviewreaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\dto\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\dto\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +23,8 @@
       "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\repositories\\reviewrepo\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\repositories\\reviewrepo\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\repositories\\reviewrepo\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\mapper\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\mapper\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|e:\\iti\\webapi\\dinerate\\dinerate\\dto\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73D4423D-BF48-4CE0-BDB1-A6AB8B9BE6DE}|DineRate\\DineRate.csproj|solutionrelative:dinerate\\dto\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,85 +54,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Models\\User.cs",
-              "RelativeDocumentMoniker": "DineRate\\Models\\User.cs",
-              "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Models\\User.cs",
-              "RelativeToolTip": "DineRate\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T02:00:16.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ReviewReaction.cs",
-              "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Models\\ReviewReaction.cs",
-              "RelativeDocumentMoniker": "DineRate\\Models\\ReviewReaction.cs",
-              "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Models\\ReviewReaction.cs",
-              "RelativeToolTip": "DineRate\\Models\\ReviewReaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Title": "RestaurantDTO.cs",
+              "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\DTO\\RestaurantDTO.cs",
+              "RelativeDocumentMoniker": "DineRate\\DTO\\RestaurantDTO.cs",
+              "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\DTO\\RestaurantDTO.cs",
+              "RelativeToolTip": "DineRate\\DTO\\RestaurantDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T02:00:06.508Z",
+              "WhenOpened": "2025-05-11T02:55:04.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Restaurant.cs",
               "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Models\\Restaurant.cs",
               "RelativeDocumentMoniker": "DineRate\\Models\\Restaurant.cs",
               "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Models\\Restaurant.cs",
               "RelativeToolTip": "DineRate\\Models\\Restaurant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T01:58:13.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "DineRate\\Controllers\\ReviewController.cs",
-              "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "DineRate\\Controllers\\ReviewController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCgAAABbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T01:44:39.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Review.cs",
               "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Models\\Review.cs",
               "RelativeDocumentMoniker": "DineRate\\Models\\Review.cs",
               "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Models\\Review.cs",
               "RelativeToolTip": "DineRate\\Models\\Review.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA7wAkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA7wBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T00:39:55.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReviewRepository.cs",
-              "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Repositories\\ReviewRepo\\ReviewRepository.cs",
-              "RelativeDocumentMoniker": "DineRate\\Repositories\\ReviewRepo\\ReviewRepository.cs",
-              "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Repositories\\ReviewRepo\\ReviewRepository.cs",
-              "RelativeToolTip": "DineRate\\Repositories\\ReviewRepo\\ReviewRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:38:24.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "IReviewRepository.cs",
               "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Repositories\\ReviewRepo\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "DineRate\\Repositories\\ReviewRepo\\IReviewRepository.cs",
@@ -156,25 +101,24 @@
               "RelativeToolTip": "DineRate\\Repositories\\ReviewRepo\\IReviewRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T00:04:58.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-11T00:04:58.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReviewDTO.cs",
-              "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\DTO\\ReviewDTO.cs",
-              "RelativeDocumentMoniker": "DineRate\\DTO\\ReviewDTO.cs",
-              "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\DTO\\ReviewDTO.cs",
-              "RelativeToolTip": "DineRate\\DTO\\ReviewDTO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowAoAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MapperConfig.cs",
+              "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Mapper\\MapperConfig.cs",
+              "RelativeDocumentMoniker": "DineRate\\Mapper\\MapperConfig.cs",
+              "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Mapper\\MapperConfig.cs",
+              "RelativeToolTip": "DineRate\\Mapper\\MapperConfig.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T23:57:19.119Z",
+              "WhenOpened": "2025-05-09T00:26:45.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Program.cs",
               "RelativeDocumentMoniker": "DineRate\\Program.cs",
@@ -182,21 +126,7 @@
               "RelativeToolTip": "DineRate\\Program.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T20:44:24.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MapperConfig.cs",
-              "DocumentMoniker": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Mapper\\MapperConfig.cs",
-              "RelativeDocumentMoniker": "DineRate\\Mapper\\MapperConfig.cs",
-              "ToolTip": "E:\\ITI\\WebAPI\\DineRate\\DineRate\\Mapper\\MapperConfig.cs",
-              "RelativeToolTip": "DineRate\\Mapper\\MapperConfig.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T00:26:45.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-10T20:44:24.871Z"
             }
           ]
         },

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DineRate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60a6cc7b1eedaa35555b6d4bb0239cd45a68dd0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("DineRate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DineRate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

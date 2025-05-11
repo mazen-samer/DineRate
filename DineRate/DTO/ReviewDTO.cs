@@ -10,6 +10,8 @@
         public int UserId { get; set; }  // Add this for identification
         public int RestaurantId { get; set; }  // Add RestaurantId to link the review to a specific restaurant
         public string RestaurantName { get; set; }  // Add the restaurant's name for easier reference
+        public int LikesCount { get; set; }
+        public int DislikesCount { get; set; }
     }
 
 

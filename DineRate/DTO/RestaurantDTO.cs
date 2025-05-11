@@ -7,8 +7,6 @@
         public string Location { get; set; }
         public string CuisineType { get; set; }
         public List<ReviewDTO> Reviews { get; set; } = new List<ReviewDTO>();
-        public int LikesCount { get; set; }
-        public int DislikesCount { get; set; }
     }
 
     public class CreateRestaurantDTO

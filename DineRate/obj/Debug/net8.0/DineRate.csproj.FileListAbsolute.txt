@@ -174,3 +174,4 @@ E:\ITI\WebAPI\DineRate\DineRate\obj\Debug\net8.0\DineRate.pdb
 E:\ITI\WebAPI\DineRate\DineRate\obj\Debug\net8.0\DineRate.genruntimeconfig.cache
 E:\ITI\WebAPI\DineRate\DineRate\obj\Debug\net8.0\ref\DineRate.dll
 E:\ITI\WebAPI\DineRate\DineRate\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\ITI\WebAPI\DineRate\DineRate\obj\Debug\net8.0\DineRate.sourcelink.json

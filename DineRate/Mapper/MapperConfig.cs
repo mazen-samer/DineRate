@@ -8,40 +8,31 @@ namespace DineRate.Mapper
     {
         public MapperConfig()
         {
-            // Restaurant
+            // Restaurant Mappings
             CreateMap<Restaurant, RestaurantDTO>()
-                .ForMember(dest => dest.LikesCount, opt => opt.MapFrom(src =>
-                    src.Reviews.SelectMany(r => r.Reactions).Count(rr => rr.IsLike)))
-                .ForMember(dest => dest.DislikesCount, opt => opt.MapFrom(src =>
-                    src.Reviews.SelectMany(r => r.Reactions).Count(rr => !rr.IsLike)))
+                .ForMember(dest => dest.Reviews, opt => opt.MapFrom(src => src.Reviews))
                 .ReverseMap();
 
             CreateMap<CreateRestaurantDTO, Restaurant>().ReverseMap();
-
             CreateMap<UpdateRestaurantDTO, Restaurant>().ReverseMap();
 
-
-            //User
+            // User Mappings
             CreateMap<User, AuthResponseDTO>()
-                .ForMember(dest => dest.Token, opt => opt.Ignore()) // assigning Token manually
+                .ForMember(dest => dest.Token, opt => opt.Ignore())
                 .ReverseMap();
 
             CreateMap<RegisterDTO, User>().ReverseMap();
-
             CreateMap<User, UserDTO>().ReverseMap();
 
-            //Review
-            CreateMap<CreateReviewDTO, Review>()
-                .ForMember(dest => dest.RestaurantId, opt => opt.MapFrom(src => src.RestaurantId))
-                .ForMember(dest => dest.Rating, opt => opt.MapFrom(src => src.Rating))
-                .ForMember(dest => dest.Comment, opt => opt.MapFrom(src => src.Comment));
+            // Review Mappings
+            CreateMap<CreateReviewDTO, Review>();
 
             CreateMap<Review, ReviewDTO>()
-                .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.User.Username))  // Assuming Review has a User object
-                .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.UserId))  // Map UserId
-                .ForMember(dest => dest.RestaurantId, opt => opt.MapFrom(src => src.RestaurantId))
-                .ForMember(dest => dest.RestaurantName, opt => opt.MapFrom(src => src.Restaurant.Name)) // Map Restaurant Name to ReviewDTO
-                .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => src.CreatedAt.ToString("yyyy-MM-dd HH:mm"))); // Format CreatedAt
+                .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.User.Username))
+                .ForMember(dest => dest.RestaurantName, opt => opt.MapFrom(src => src.Restaurant.Name))
+                .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => src.CreatedAt.ToString("yyyy-MM-dd HH:mm")))
+                .ForMember(dest => dest.LikesCount, opt => opt.MapFrom(src => src.Reactions.Count(r => r.IsLike)))
+                .ForMember(dest => dest.DislikesCount, opt => opt.MapFrom(src => src.Reactions.Count(r => !r.IsLike)));
         }
     }
 }
